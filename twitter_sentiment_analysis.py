@@ -23,8 +23,8 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # %matplotlib inline
 
-train = pd.read_csv('/content/train_E6oV3lV.csv')
-test = pd.read_csv('/content/test_tweets_anuFYb8.csv')
+train = pd.read_csv('/train_E6oV3lV.csv')
+test = pd.read_csv('/test_tweets_anuFYb8.csv')
 
 # Text preprocessing - 1. Data Inspection , 2. Data Cleaning
 train[train['label'] == 0].head(10)
